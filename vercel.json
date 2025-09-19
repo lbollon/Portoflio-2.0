@@ -1,8 +1,8 @@
 {
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "styles.css", "use": "@vercel/static" },
-    { "src": "scripts.js", "use": "@vercel/static" },
-    { "src": "images/*", "use": "@vercel/static" }
+    { "src": "portfolio.html", "use": "@vercel/static" },
+    { "src": "styles/styles.css", "use": "@vercel/static" },
+    { "src": "script/script.js", "use": "@vercel/static" },
+    { "src": "img/*", "use": "@vercel/static" }
   ]
 }
