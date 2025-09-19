@@ -1,9 +1,9 @@
 {
   "builds": [
-    { "src": "portfolio.html", "use": "@vercel/static" },
-    { "src": "styles/styles.css", "use": "@vercel/static" },
-    { "src": "script/script.js", "use": "@vercel/static" },
-    { "src": "img/*", "use": "@vercel/static" }
+    { "src": "/portfolio.html", "use": "@vercel/static" },
+    { "src": "/styles/styles.css", "use": "@vercel/static" },
+    { "src": "/script/script.js", "use": "@vercel/static" },
+    { "src": "/img/*", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/portfolio.html" },
